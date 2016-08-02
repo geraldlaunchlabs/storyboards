@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)done:(UIStoryboardSegue *)seque;
 
 @end
 

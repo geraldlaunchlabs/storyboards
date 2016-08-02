@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)done:(UIStoryboardSegue *)seque {
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end
